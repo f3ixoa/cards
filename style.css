@@ -1,0 +1,28 @@
+.card1{
+    display: flex;
+    background-color: #000000;
+    align-items: center;
+    gap: 53;
+    color:white;
+    border-radius: 32px;
+    width: 1300px;
+    height: 545px;
+    left: 1849px;
+}
+.Gear{
+    width: 73px;
+    height: 27px;
+    background-color: #191919;
+    border-radius: 6px;
+    
+}
+.Episode{
+    color: #118DA8;
+}
+.h1card1{
+    width: 701px;
+    height: 141px;
+}
+.textcard1{
+    color:white 70%;
+}
