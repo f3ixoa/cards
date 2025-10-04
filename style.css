@@ -2,19 +2,21 @@
     display: flex;
     background-color: #000000;
     align-items: center;
-    gap: 53;
+    gap: 53px;
     color:white;
     border-radius: 32px;
     width: 1300px;
-    height: 545px;
-    left: 1849px;
+    padding: 40px;
 }
 .Gear{
-    width: 73px;
-    height: 27px;
+    width: fit-content;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
     background-color: #191919;
     border-radius: 6px;
-    
+    padding: 0px 16px;
+    margin-bottom: 48px;
 }
 .Episode{
     color: #118DA8;
@@ -22,7 +24,28 @@
 .h1card1{
     width: 701px;
     height: 141px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70.4px;
+    margin-bottom: 28px;
 }
 .textcard1{
+    width: 757px;
+    height: 99px;
     color:white 70%;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    margin-bottom: 18px;
+}
+.btncard1{
+    width: 208px;
+    height: 51px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    background-color: #118DA8;
+    color: white;
+    border:none;
+    border-radius: 6px;
 }
