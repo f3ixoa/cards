@@ -1,3 +1,9 @@
+body{background-color: aliceblue ;}
+.cards{
+    display: flex;
+    gap: 150px;
+}
+/*card 1*/
 .card1{
     display: flex;
     background-color: #000000;
@@ -7,6 +13,7 @@
     border-radius: 32px;
     width: 1300px;
     padding: 40px;
+    margin-bottom: 289px;;
 }
 .Gear{
     width: fit-content;
@@ -32,7 +39,8 @@
 .textcard1{
     width: 757px;
     height: 99px;
-    color:white 70%;
+    color:white;
+    opacity: 0.7;
     font-weight: 400;
     font-size: 22px;
     line-height: 33px;
@@ -48,4 +56,133 @@
     color: white;
     border:none;
     border-radius: 6px;
+}
+
+/*card 2*/
+.card2{
+    background-color: #E1EDE6;
+    width: fit-content;
+    padding: 20px;
+    margin-left: 10px;
+    gap:150px;
+    margin-top: 170px;
+}
+.autor{
+    color: #86928B;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    margin-bottom: 10px;;
+}
+.title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    margin-bottom: 10px;;
+}
+.item{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;    
+    margin-bottom: 30px;
+}
+.price{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color:#598D66;
+    margin-bottom:10px ;
+}
+.btncard2{
+    align-self: center;
+    width: 250px;
+    height: 50px;
+    background-color:transparent;
+    border-color:#598D66 ;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 100%;
+    color: #598D66;
+}
+/*card 3*/
+.card3{
+    margin-top: 100px;
+    width: fit-content;
+    border: 1px solid #F2F6FA;
+    background-color: white;
+}
+.block3{
+    padding-top:50px;
+    padding-left: 44px;
+    padding-bottom:32px;
+    width: 247px;
+}
+.name3{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 143%;
+    color: #2E363E;
+}
+.description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #2E363E;
+    margin-bottom: 24px;
+}
+.price3{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    color: #434B53;
+    margin-bottom: 14px;
+}
+.btncard3{
+    padding: 20px 40px;
+    background-color: #FED84C;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 152%;
+    border: none;
+    color: #2E363E;
+}
+/*card 4*/
+.card4{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding: 21.7px 23px 53px 27px ;
+    background-color: #0C0B15;
+    width: 330px;
+    height: 400px;
+    color:white;
+    border-radius: 16px;
+    margin-top: 182px;
+}
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+.aboutme{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    margin-bottom: 24.37px;
+}
+.jason{
+    color: #809FB8;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 26.63px;
+}
+.description4{
+    width: fit-content;
+    color: #809FB8;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21px;
 }
